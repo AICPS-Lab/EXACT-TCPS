@@ -1,0 +1,11 @@
+# iPhone 17 Pro Max (iPhone18,2), iOS 27.0.1, Release build, Xcode 26.6, 2026-11-08 12:48
+# launched via: devicectl device process launch --console com.hcwdavid.EXACTBench --autorun --exit
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: serious
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 0.191  p50 0.186  p95 0.217  p99 0.303  min 0.172  max 0.338
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: serious
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 0.188  p50 0.185  p95 0.200  p99 0.219  min 0.177  max 0.301
+BENCHMARK DONE

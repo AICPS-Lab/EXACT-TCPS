@@ -1,0 +1,376 @@
+# iPhone 17 Pro Max (iPhone18,2), iOS 27.0.1, Release build, Xcode 27.2 on macOS 27.2, 2026-11-08 15:37
+# multi-model EXACTBench app: 5 runs x (7 models x {NE-allowed, CPU-only} x 50 warm-up + 300 timed windows), unplugged, thermal nominal;
+# plus two 300 s sustained streaming passes of EXACT at the 0.5 s stride (CPU-only, NE-allowed); headless launches from the Mac:
+#   devicectl device process launch --console --terminate-existing com.hcwdavid.EXACTBench --autorun --exit [--sustain 300]
+# The first five stamped blocks (23:18Z) are the EXACT-only runs already saved as iPhone18,2_runs4-8.txt (file is append-only).
+### run at 2026-11-08T23:36:20Z
+on-device benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 92.841 ms
+  latency ms  mean 0.183  p50 0.182  p95 0.190  p99 0.219  min 0.172  max 0.263
+
+on-device benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 41.804 ms
+  latency ms  mean 0.183  p50 0.183  p95 0.187  p99 0.207  min 0.174  max 0.222
+
+on-device benchmark  model: EXACT_physiq_win250
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 250x6  iterations: 300  load+compile: 82.388 ms
+  latency ms  mean 0.118  p50 0.113  p95 0.138  p99 0.242  min 0.107  max 0.310
+
+on-device benchmark  model: EXACT_physiq_win250
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 250x6  iterations: 300  load+compile: 43.037 ms
+  latency ms  mean 0.145  p50 0.139  p95 0.174  p99 0.201  min 0.132  max 0.240
+
+on-device benchmark  model: EXACT_physiq_win750
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 750x6  iterations: 300  load+compile: 107.846 ms
+  latency ms  mean 0.317  p50 0.319  p95 0.344  p99 0.398  min 0.290  max 0.415
+
+on-device benchmark  model: EXACT_physiq_win750
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 750x6  iterations: 300  load+compile: 54.229 ms
+  latency ms  mean 0.289  p50 0.279  p95 0.333  p99 0.485  min 0.270  max 0.549
+
+on-device benchmark  model: unet_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 82.420 ms
+  latency ms  mean 0.107  p50 0.099  p95 0.136  p99 0.387  min 0.091  max 0.427
+
+on-device benchmark  model: unet_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 22.879 ms
+  latency ms  mean 0.104  p50 0.096  p95 0.154  p99 0.187  min 0.086  max 0.613
+
+on-device benchmark  model: cnn_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 607.934 ms
+  latency ms  mean 0.378  p50 0.344  p95 0.558  p99 0.729  min 0.306  max 0.772
+
+on-device benchmark  model: cnn_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 16.751 ms
+  latency ms  mean 0.060  p50 0.059  p95 0.065  p99 0.072  min 0.056  max 0.077
+
+on-device benchmark  model: transformer_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 1243.989 ms
+  latency ms  mean 1.166  p50 1.170  p95 1.197  p99 1.211  min 1.094  max 1.292
+
+on-device benchmark  model: transformer_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 50.777 ms
+  latency ms  mean 2.638  p50 2.630  p95 2.757  p99 2.811  min 2.487  max 2.918
+
+on-device benchmark  model: segmenter_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 1337.281 ms
+  latency ms  mean 0.907  p50 0.893  p95 1.022  p99 1.091  min 0.839  max 1.106
+
+on-device benchmark  model: segmenter_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 32.064 ms
+  latency ms  mean 1.560  p50 1.546  p95 1.653  p99 1.814  min 1.425  max 1.954
+
+sustained streaming benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  compute units: cpuOnly
+  thermal start/end: nominal/nominal  power start/end: unplugged 95% / unplugged 95%
+  stride 0.5 s  duration 300 s  windows 600  missed 500 ms deadlines 0
+  per-minute mean ms: 2.400 2.365 2.317 2.340 2.328
+  per-minute p95 ms:  2.675 2.600 2.558 2.607 2.532
+  overall ms  mean 2.350  p95 2.600  p99 2.822  max 9.294
+
+sustained streaming benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  compute units: all (Neural Engine allowed)
+  thermal start/end: nominal/nominal  power start/end: unplugged 95% / unplugged 95%
+  stride 0.5 s  duration 300 s  windows 600  missed 500 ms deadlines 0
+  per-minute mean ms: 2.314 2.364 2.326 2.360 2.328
+  per-minute p95 ms:  2.525 2.588 2.536 2.587 2.525
+  overall ms  mean 2.339  p95 2.547  p99 2.630  max 2.961
+
+### run at 2026-11-08T23:37:03Z
+on-device benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 26.166 ms
+  latency ms  mean 0.201  p50 0.196  p95 0.228  p99 0.276  min 0.175  max 0.420
+
+on-device benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 6.771 ms
+  latency ms  mean 0.194  p50 0.193  p95 0.211  p99 0.217  min 0.175  max 0.231
+
+on-device benchmark  model: EXACT_physiq_win250
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 250x6  iterations: 300  load+compile: 18.479 ms
+  latency ms  mean 0.119  p50 0.119  p95 0.126  p99 0.136  min 0.112  max 0.139
+
+on-device benchmark  model: EXACT_physiq_win250
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 250x6  iterations: 300  load+compile: 3.668 ms
+  latency ms  mean 0.114  p50 0.113  p95 0.121  p99 0.129  min 0.109  max 0.137
+
+on-device benchmark  model: EXACT_physiq_win750
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 750x6  iterations: 300  load+compile: 17.960 ms
+  latency ms  mean 0.265  p50 0.263  p95 0.278  p99 0.284  min 0.252  max 0.290
+
+on-device benchmark  model: EXACT_physiq_win750
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 750x6  iterations: 300  load+compile: 6.888 ms
+  latency ms  mean 0.265  p50 0.265  p95 0.275  p99 0.285  min 0.253  max 0.314
+
+on-device benchmark  model: unet_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 13.492 ms
+  latency ms  mean 0.094  p50 0.092  p95 0.103  p99 0.113  min 0.086  max 0.114
+
+on-device benchmark  model: unet_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 3.282 ms
+  latency ms  mean 0.094  p50 0.093  p95 0.103  p99 0.114  min 0.085  max 0.130
+
+on-device benchmark  model: cnn_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 40.572 ms
+  latency ms  mean 0.539  p50 0.547  p95 0.662  p99 0.976  min 0.349  max 3.230
+
+on-device benchmark  model: cnn_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 5.133 ms
+  latency ms  mean 0.062  p50 0.063  p95 0.066  p99 0.069  min 0.057  max 0.071
+
+on-device benchmark  model: transformer_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 49.172 ms
+  latency ms  mean 1.150  p50 1.149  p95 1.201  p99 1.220  min 1.105  max 1.225
+
+on-device benchmark  model: transformer_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 10.387 ms
+  latency ms  mean 2.474  p50 2.395  p95 2.785  p99 4.085  min 2.295  max 5.372
+
+on-device benchmark  model: segmenter_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 41.046 ms
+  latency ms  mean 0.881  p50 0.875  p95 0.914  p99 0.952  min 0.859  max 1.034
+
+on-device benchmark  model: segmenter_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 7.974 ms
+  latency ms  mean 1.447  p50 1.433  p95 1.577  p99 1.866  min 1.342  max 2.441
+
+### run at 2026-11-08T23:37:11Z
+on-device benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 26.222 ms
+  latency ms  mean 0.187  p50 0.184  p95 0.203  p99 0.242  min 0.180  max 0.376
+
+on-device benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 4.345 ms
+  latency ms  mean 0.184  p50 0.182  p95 0.192  p99 0.205  min 0.176  max 0.218
+
+on-device benchmark  model: EXACT_physiq_win250
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 250x6  iterations: 300  load+compile: 19.022 ms
+  latency ms  mean 0.114  p50 0.113  p95 0.121  p99 0.137  min 0.108  max 0.148
+
+on-device benchmark  model: EXACT_physiq_win250
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 250x6  iterations: 300  load+compile: 3.700 ms
+  latency ms  mean 0.113  p50 0.113  p95 0.120  p99 0.136  min 0.106  max 0.155
+
+on-device benchmark  model: EXACT_physiq_win750
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 750x6  iterations: 300  load+compile: 17.455 ms
+  latency ms  mean 0.265  p50 0.263  p95 0.275  p99 0.288  min 0.253  max 0.297
+
+on-device benchmark  model: EXACT_physiq_win750
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 750x6  iterations: 300  load+compile: 7.039 ms
+  latency ms  mean 0.266  p50 0.266  p95 0.275  p99 0.282  min 0.253  max 0.286
+
+on-device benchmark  model: unet_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 14.067 ms
+  latency ms  mean 0.093  p50 0.093  p95 0.103  p99 0.107  min 0.084  max 0.110
+
+on-device benchmark  model: unet_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 3.543 ms
+  latency ms  mean 0.095  p50 0.096  p95 0.102  p99 0.113  min 0.091  max 0.127
+
+on-device benchmark  model: cnn_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 43.924 ms
+  latency ms  mean 0.558  p50 0.507  p95 0.880  p99 0.972  min 0.328  max 6.180
+
+on-device benchmark  model: cnn_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 5.195 ms
+  latency ms  mean 0.063  p50 0.062  p95 0.067  p99 0.072  min 0.057  max 0.089
+
+on-device benchmark  model: transformer_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 49.723 ms
+  latency ms  mean 1.149  p50 1.149  p95 1.184  p99 1.221  min 1.107  max 1.227
+
+on-device benchmark  model: transformer_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 9.056 ms
+  latency ms  mean 2.508  p50 2.464  p95 3.058  p99 3.220  min 2.288  max 3.443
+
+on-device benchmark  model: segmenter_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 41.569 ms
+  latency ms  mean 0.879  p50 0.874  p95 0.903  p99 0.949  min 0.855  max 0.974
+
+on-device benchmark  model: segmenter_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 8.056 ms
+  latency ms  mean 1.542  p50 1.495  p95 1.894  p99 1.997  min 1.348  max 2.023
+
+### run at 2026-11-08T23:37:20Z
+on-device benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 27.223 ms
+  latency ms  mean 0.196  p50 0.193  p95 0.224  p99 0.293  min 0.172  max 0.593
+
+on-device benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 4.372 ms
+  latency ms  mean 0.185  p50 0.183  p95 0.193  p99 0.207  min 0.176  max 0.221
+
+on-device benchmark  model: EXACT_physiq_win250
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 250x6  iterations: 300  load+compile: 19.440 ms
+  latency ms  mean 0.114  p50 0.113  p95 0.121  p99 0.135  min 0.110  max 0.139
+
+on-device benchmark  model: EXACT_physiq_win250
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 250x6  iterations: 300  load+compile: 3.613 ms
+  latency ms  mean 0.117  p50 0.112  p95 0.148  p99 0.212  min 0.106  max 0.249
+
+on-device benchmark  model: EXACT_physiq_win750
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 750x6  iterations: 300  load+compile: 24.205 ms
+  latency ms  mean 0.312  p50 0.298  p95 0.371  p99 0.456  min 0.291  max 0.809
+
+on-device benchmark  model: EXACT_physiq_win750
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 750x6  iterations: 300  load+compile: 7.191 ms
+  latency ms  mean 0.278  p50 0.277  p95 0.308  p99 0.334  min 0.259  max 0.359
+
+on-device benchmark  model: unet_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 14.123 ms
+  latency ms  mean 0.095  p50 0.095  p95 0.100  p99 0.108  min 0.089  max 0.109
+
+on-device benchmark  model: unet_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 3.260 ms
+  latency ms  mean 0.094  p50 0.094  p95 0.098  p99 0.105  min 0.088  max 0.117
+
+on-device benchmark  model: cnn_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 40.622 ms
+  latency ms  mean 0.527  p50 0.528  p95 0.792  p99 0.874  min 0.341  max 0.891
+
+on-device benchmark  model: cnn_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 5.529 ms
+  latency ms  mean 0.061  p50 0.061  p95 0.066  p99 0.073  min 0.057  max 0.075
+
+on-device benchmark  model: transformer_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 49.279 ms
+  latency ms  mean 1.153  p50 1.153  p95 1.197  p99 1.224  min 1.106  max 1.246
+
+on-device benchmark  model: transformer_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 9.212 ms
+  latency ms  mean 2.509  p50 2.491  p95 2.663  p99 3.040  min 2.347  max 3.265
+
+on-device benchmark  model: segmenter_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 43.005 ms
+  latency ms  mean 0.879  p50 0.873  p95 0.916  p99 0.957  min 0.858  max 0.990
+
+on-device benchmark  model: segmenter_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 7.886 ms
+  latency ms  mean 1.498  p50 1.483  p95 1.624  p99 1.839  min 1.375  max 1.934
+
+### run at 2026-11-08T23:37:27Z
+on-device benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 27.366 ms
+  latency ms  mean 0.186  p50 0.183  p95 0.192  p99 0.235  min 0.177  max 0.510
+
+on-device benchmark  model: EXACT_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 4.010 ms
+  latency ms  mean 0.184  p50 0.183  p95 0.192  p99 0.211  min 0.176  max 0.226
+
+on-device benchmark  model: EXACT_physiq_win250
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 250x6  iterations: 300  load+compile: 18.954 ms
+  latency ms  mean 0.117  p50 0.118  p95 0.123  p99 0.143  min 0.110  max 0.150
+
+on-device benchmark  model: EXACT_physiq_win250
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 250x6  iterations: 300  load+compile: 3.830 ms
+  latency ms  mean 0.115  p50 0.114  p95 0.124  p99 0.141  min 0.109  max 0.156
+
+on-device benchmark  model: EXACT_physiq_win750
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 750x6  iterations: 300  load+compile: 17.516 ms
+  latency ms  mean 0.262  p50 0.261  p95 0.272  p99 0.282  min 0.252  max 0.291
+
+on-device benchmark  model: EXACT_physiq_win750
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 750x6  iterations: 300  load+compile: 6.919 ms
+  latency ms  mean 0.266  p50 0.265  p95 0.278  p99 0.294  min 0.254  max 0.298
+
+on-device benchmark  model: unet_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 13.576 ms
+  latency ms  mean 0.094  p50 0.093  p95 0.104  p99 0.128  min 0.087  max 0.139
+
+on-device benchmark  model: unet_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 3.294 ms
+  latency ms  mean 0.095  p50 0.094  p95 0.102  p99 0.115  min 0.087  max 0.128
+
+on-device benchmark  model: cnn_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 40.215 ms
+  latency ms  mean 0.542  p50 0.489  p95 0.837  p99 1.173  min 0.331  max 5.771
+
+on-device benchmark  model: cnn_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 5.193 ms
+  latency ms  mean 0.062  p50 0.062  p95 0.066  p99 0.069  min 0.057  max 0.070
+
+on-device benchmark  model: transformer_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 49.076 ms
+  latency ms  mean 1.151  p50 1.150  p95 1.193  p99 1.226  min 1.098  max 1.236
+
+on-device benchmark  model: transformer_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 9.517 ms
+  latency ms  mean 2.636  p50 2.521  p95 3.028  p99 5.503  min 2.387  max 6.056
+
+on-device benchmark  model: segmenter_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 43.747 ms
+  latency ms  mean 0.885  p50 0.878  p95 0.926  p99 0.952  min 0.857  max 1.035
+
+on-device benchmark  model: segmenter_physiq
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 7.826 ms
+  latency ms  mean 1.516  p50 1.496  p95 1.626  p99 1.862  min 1.392  max 2.100
+

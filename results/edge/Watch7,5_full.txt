@@ -1,0 +1,424 @@
+# Apple Watch Ultra 2 (Watch7,5, S9 SiP, same as Series 9/10), watchOS 27.0.1, Release build, Xcode 27.2 on macOS 27.2, 2026-11-08 16:20
+# multi-model EXACTBench app, "Run benchmark" tapped 5 times on the watch, worn, off the charger, display kept awake:
+# per tap 7 models x {NE-allowed, CPU-only} x 50 warm-up + 300 timed windows; each model block appended as it finished.
+# (Earlier EXACT-only runs are in Watch7,5_run1.txt / Watch7,5_runs2-6.txt; sustained passes in Watch7,5_sustained.txt.)
+### run at 2026-11-08T23:59:34Z
+on-device benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 230.401 ms
+  latency ms  mean 1.812  p50 1.744  p95 2.347  p99 3.479  min 1.550  max 4.886
+
+### run at 2026-11-08T23:59:34Z
+on-device benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 18.323 ms
+  latency ms  mean 1.754  p50 1.663  p95 2.401  p99 3.274  min 1.520  max 3.382
+
+### run at 2026-11-08T23:59:35Z
+on-device benchmark  model: EXACT_physiq_win250
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 250x6  iterations: 300  load+compile: 347.179 ms
+  latency ms  mean 1.041  p50 1.004  p95 1.314  p99 1.965  min 0.786  max 2.227
+
+### run at 2026-11-08T23:59:35Z
+on-device benchmark  model: EXACT_physiq_win250
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 250x6  iterations: 300  load+compile: 146.018 ms
+  latency ms  mean 1.016  p50 0.973  p95 1.292  p99 1.769  min 0.885  max 2.943
+
+### run at 2026-11-08T23:59:36Z
+on-device benchmark  model: EXACT_physiq_win750
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 750x6  iterations: 300  load+compile: 263.952 ms
+  latency ms  mean 2.472  p50 2.362  p95 3.148  p99 3.993  min 2.186  max 4.512
+
+### run at 2026-11-08T23:59:38Z
+on-device benchmark  model: EXACT_physiq_win750
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 750x6  iterations: 300  load+compile: 152.465 ms
+  latency ms  mean 2.499  p50 2.382  p95 3.239  p99 4.438  min 2.194  max 6.751
+
+### run at 2026-11-08T23:59:38Z
+on-device benchmark  model: unet_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 126.644 ms
+  latency ms  mean 0.721  p50 0.698  p95 0.816  p99 1.250  min 0.606  max 1.871
+
+### run at 2026-11-08T23:59:38Z
+on-device benchmark  model: unet_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 75.925 ms
+  latency ms  mean 0.725  p50 0.695  p95 0.822  p99 1.587  min 0.602  max 2.293
+
+### run at 2026-11-08T23:59:38Z
+on-device benchmark  model: cnn_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 94.664 ms
+  latency ms  mean 0.373  p50 0.362  p95 0.431  p99 0.655  min 0.343  max 0.874
+
+### run at 2026-11-08T23:59:39Z
+on-device benchmark  model: cnn_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 58.414 ms
+  latency ms  mean 0.370  p50 0.362  p95 0.413  p99 0.614  min 0.340  max 0.949
+
+### run at 2026-11-08T23:59:47Z
+on-device benchmark  model: transformer_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 319.815 ms
+  latency ms  mean 21.731  p50 20.689  p95 27.271  p99 30.893  min 18.870  max 37.279
+
+### run at 2026-11-08T23:59:56Z
+on-device benchmark  model: transformer_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 184.208 ms
+  latency ms  mean 26.167  p50 22.480  p95 34.689  p99 56.650  min 18.579  max 691.628
+
+### run at 2026-11-09T00:00:01Z
+on-device benchmark  model: segmenter_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 190.840 ms
+  latency ms  mean 13.733  p50 13.399  p95 16.595  p99 18.711  min 11.763  max 19.788
+
+### run at 2026-11-09T00:00:10Z
+on-device benchmark  model: segmenter_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 114.634 ms
+  latency ms  mean 17.317  p50 13.873  p95 26.696  p99 55.474  min 11.780  max 508.227
+
+### run at 2026-11-09T00:10:38Z
+on-device benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 230.668 ms
+  latency ms  mean 1.648  p50 1.548  p95 2.234  p99 3.124  min 1.344  max 5.973
+
+### run at 2026-11-09T00:10:39Z
+on-device benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 16.290 ms
+  latency ms  mean 1.670  p50 1.539  p95 2.429  p99 3.368  min 1.324  max 3.604
+
+### run at 2026-11-09T00:10:40Z
+on-device benchmark  model: EXACT_physiq_win250
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 250x6  iterations: 300  load+compile: 75.330 ms
+  latency ms  mean 1.191  p50 1.010  p95 2.078  p99 3.678  min 0.797  max 6.898
+
+### run at 2026-11-09T00:10:40Z
+on-device benchmark  model: EXACT_physiq_win250
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 250x6  iterations: 300  load+compile: 19.623 ms
+  latency ms  mean 1.163  p50 1.022  p95 1.877  p99 2.967  min 0.846  max 3.999
+
+### run at 2026-11-09T00:10:41Z
+on-device benchmark  model: EXACT_physiq_win750
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 750x6  iterations: 300  load+compile: 83.858 ms
+  latency ms  mean 2.801  p50 2.559  p95 4.142  p99 6.593  min 2.045  max 8.283
+
+### run at 2026-11-09T00:10:42Z
+on-device benchmark  model: EXACT_physiq_win750
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 750x6  iterations: 300  load+compile: 19.346 ms
+  latency ms  mean 2.877  p50 2.612  p95 4.244  p99 5.880  min 2.107  max 6.358
+
+### run at 2026-11-09T00:10:42Z
+on-device benchmark  model: unet_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 52.702 ms
+  latency ms  mean 0.822  p50 0.708  p95 1.447  p99 2.279  min 0.633  max 3.438
+
+### run at 2026-11-09T00:10:43Z
+on-device benchmark  model: unet_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 13.587 ms
+  latency ms  mean 0.799  p50 0.707  p95 1.314  p99 2.090  min 0.608  max 2.247
+
+### run at 2026-11-09T00:10:43Z
+on-device benchmark  model: cnn_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 42.583 ms
+  latency ms  mean 0.418  p50 0.366  p95 0.765  p99 1.198  min 0.344  max 1.236
+
+### run at 2026-11-09T00:10:43Z
+on-device benchmark  model: cnn_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 18.465 ms
+  latency ms  mean 0.420  p50 0.369  p95 0.719  p99 1.100  min 0.334  max 1.474
+
+### run at 2026-11-09T00:10:51Z
+on-device benchmark  model: transformer_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 113.201 ms
+  latency ms  mean 22.274  p50 21.367  p95 28.870  p99 31.190  min 18.559  max 35.040
+
+### run at 2026-11-09T00:11:32Z
+on-device benchmark  model: transformer_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 37.399 ms
+  latency ms  mean 62.535  p50 23.606  p95 47.784  p99 924.767  min 18.303  max 5641.844
+
+### run at 2026-11-09T00:12:04Z
+on-device benchmark  model: segmenter_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 71.442 ms
+  latency ms  mean 18.863  p50 14.484  p95 31.134  p99 92.282  min 11.918  max 626.074
+
+### run at 2026-11-09T00:12:15Z
+on-device benchmark  model: segmenter_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 28.610 ms
+  latency ms  mean 35.299  p50 14.955  p95 36.390  p99 99.552  min 11.811  max 3551.719
+
+### run at 2026-11-09T00:12:19Z
+on-device benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 116.805 ms
+  latency ms  mean 1.758  p50 1.655  p95 2.265  p99 3.730  min 1.554  max 4.186
+
+### run at 2026-11-09T00:12:19Z
+on-device benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 14.641 ms
+  latency ms  mean 1.768  p50 1.648  p95 2.450  p99 3.421  min 1.523  max 4.571
+
+### run at 2026-11-09T00:12:20Z
+on-device benchmark  model: EXACT_physiq_win250
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 250x6  iterations: 300  load+compile: 72.555 ms
+  latency ms  mean 1.030  p50 0.965  p95 1.414  p99 2.610  min 0.805  max 2.702
+
+### run at 2026-11-09T00:12:20Z
+on-device benchmark  model: EXACT_physiq_win250
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 250x6  iterations: 300  load+compile: 18.175 ms
+  latency ms  mean 1.039  p50 0.975  p95 1.438  p99 2.349  min 0.860  max 2.752
+
+### run at 2026-11-09T00:12:21Z
+on-device benchmark  model: EXACT_physiq_win750
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 750x6  iterations: 300  load+compile: 82.605 ms
+  latency ms  mean 2.433  p50 2.313  p95 3.153  p99 3.952  min 2.166  max 5.050
+
+### run at 2026-11-09T00:12:22Z
+on-device benchmark  model: EXACT_physiq_win750
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 750x6  iterations: 300  load+compile: 18.314 ms
+  latency ms  mean 2.486  p50 2.335  p95 3.239  p99 4.524  min 2.016  max 5.844
+
+### run at 2026-11-09T00:12:22Z
+on-device benchmark  model: unet_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 50.890 ms
+  latency ms  mean 0.716  p50 0.695  p95 0.828  p99 1.115  min 0.643  max 1.900
+
+### run at 2026-11-09T00:12:22Z
+on-device benchmark  model: unet_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 14.161 ms
+  latency ms  mean 0.718  p50 0.694  p95 0.844  p99 1.082  min 0.619  max 2.000
+
+### run at 2026-11-09T00:12:23Z
+on-device benchmark  model: cnn_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 42.703 ms
+  latency ms  mean 0.375  p50 0.364  p95 0.437  p99 0.630  min 0.336  max 1.268
+
+### run at 2026-11-09T00:12:23Z
+on-device benchmark  model: cnn_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 11.969 ms
+  latency ms  mean 0.379  p50 0.363  p95 0.430  p99 0.691  min 0.337  max 1.498
+
+### run at 2026-11-09T00:12:31Z
+on-device benchmark  model: transformer_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 99.910 ms
+  latency ms  mean 22.224  p50 21.301  p95 27.781  p99 31.092  min 18.355  max 46.274
+
+### run at 2026-11-09T00:13:54Z
+on-device benchmark  model: transformer_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 39.487 ms
+  latency ms  mean 101.773  p50 22.769  p95 43.982  p99 709.343  min 18.675  max 13069.829
+
+### run at 2026-11-09T00:14:49Z
+on-device benchmark  model: segmenter_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 78.459 ms
+  latency ms  mean 109.095  p50 14.532  p95 34.457  p99 2621.362  min 12.084  max 13426.111
+
+### run at 2026-11-09T00:15:08Z
+on-device benchmark  model: segmenter_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 30.747 ms
+  latency ms  mean 60.431  p50 13.913  p95 27.044  p99 108.806  min 11.794  max 8125.367
+
+### run at 2026-11-09T00:15:13Z
+on-device benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 121.312 ms
+  latency ms  mean 1.828  p50 1.713  p95 2.432  p99 3.542  min 1.459  max 4.501
+
+### run at 2026-11-09T00:15:14Z
+on-device benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 18.595 ms
+  latency ms  mean 1.720  p50 1.629  p95 2.234  p99 3.596  min 1.310  max 4.284
+
+### run at 2026-11-09T00:15:14Z
+on-device benchmark  model: EXACT_physiq_win250
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 250x6  iterations: 300  load+compile: 71.009 ms
+  latency ms  mean 1.061  p50 0.972  p95 1.443  p99 2.592  min 0.873  max 2.765
+
+### run at 2026-11-09T00:15:15Z
+on-device benchmark  model: EXACT_physiq_win250
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 250x6  iterations: 300  load+compile: 16.083 ms
+  latency ms  mean 1.168  p50 1.013  p95 1.724  p99 2.425  min 0.748  max 18.378
+
+### run at 2026-11-09T00:15:52Z
+on-device benchmark  model: EXACT_physiq_win750
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 750x6  iterations: 300  load+compile: 81.078 ms
+  latency ms  mean 19.720  p50 2.862  p95 11.981  p99 53.596  min 2.022  max 4171.414
+
+### run at 2026-11-09T00:15:53Z
+on-device benchmark  model: EXACT_physiq_win750
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 750x6  iterations: 300  load+compile: 17.875 ms
+  latency ms  mean 2.477  p50 2.392  p95 2.994  p99 4.459  min 2.031  max 5.816
+
+### run at 2026-11-09T00:15:53Z
+on-device benchmark  model: unet_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 50.335 ms
+  latency ms  mean 0.840  p50 0.744  p95 1.212  p99 1.744  min 0.590  max 3.260
+
+### run at 2026-11-09T00:15:54Z
+on-device benchmark  model: unet_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 12.190 ms
+  latency ms  mean 0.725  p50 0.694  p95 0.908  p99 1.292  min 0.586  max 2.130
+
+### run at 2026-11-09T00:15:54Z
+on-device benchmark  model: cnn_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 39.990 ms
+  latency ms  mean 0.378  p50 0.363  p95 0.453  p99 0.596  min 0.321  max 1.252
+
+### run at 2026-11-09T00:15:54Z
+on-device benchmark  model: cnn_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 13.077 ms
+  latency ms  mean 0.400  p50 0.365  p95 0.468  p99 1.026  min 0.344  max 3.118
+
+### run at 2026-11-09T00:16:06Z
+on-device benchmark  model: transformer_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 98.479 ms
+  latency ms  mean 34.842  p50 22.258  p95 35.651  p99 78.847  min 18.626  max 3142.220
+
+### run at 2026-11-09T00:16:14Z
+on-device benchmark  model: transformer_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 34.448 ms
+  latency ms  mean 22.471  p50 21.734  p95 27.922  p99 31.454  min 18.477  max 32.220
+
+### run at 2026-11-09T00:16:19Z
+on-device benchmark  model: segmenter_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 74.846 ms
+  latency ms  mean 13.837  p50 13.226  p95 17.832  p99 21.927  min 11.727  max 23.272
+
+### run at 2026-11-09T00:16:30Z
+on-device benchmark  model: segmenter_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 28.968 ms
+  latency ms  mean 17.820  p50 13.940  p95 25.616  p99 62.502  min 11.785  max 653.757
+
+### run at 2026-11-09T00:17:29Z
+on-device benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 123.167 ms
+  latency ms  mean 1.806  p50 1.707  p95 2.466  p99 3.620  min 1.457  max 4.276
+
+### run at 2026-11-09T00:17:30Z
+on-device benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 17.288 ms
+  latency ms  mean 1.758  p50 1.653  p95 2.318  p99 3.441  min 1.317  max 4.930
+
+### run at 2026-11-09T00:17:30Z
+on-device benchmark  model: EXACT_physiq_win250
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 250x6  iterations: 300  load+compile: 72.506 ms
+  latency ms  mean 1.129  p50 1.001  p95 1.718  p99 2.875  min 0.775  max 9.964
+
+### run at 2026-11-09T00:17:30Z
+on-device benchmark  model: EXACT_physiq_win250
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 250x6  iterations: 300  load+compile: 15.170 ms
+  latency ms  mean 1.209  p50 1.022  p95 1.982  p99 4.109  min 0.834  max 13.164
+
+### run at 2026-11-09T00:18:31Z
+on-device benchmark  model: EXACT_physiq_win750
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 750x6  iterations: 300  load+compile: 86.247 ms
+  latency ms  mean 107.096  p50 3.312  p95 18.657  p99 480.115  min 2.177  max 28546.371
+
+### run at 2026-11-09T00:18:32Z
+on-device benchmark  model: EXACT_physiq_win750
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 750x6  iterations: 300  load+compile: 18.605 ms
+  latency ms  mean 2.725  p50 2.579  p95 3.780  p99 5.192  min 1.942  max 5.599
+
+### run at 2026-11-09T00:18:32Z
+on-device benchmark  model: unet_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 50.473 ms
+  latency ms  mean 0.739  p50 0.699  p95 0.899  p99 1.796  min 0.601  max 2.117
+
+### run at 2026-11-09T00:18:33Z
+on-device benchmark  model: unet_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 15.601 ms
+  latency ms  mean 0.758  p50 0.703  p95 0.966  p99 1.498  min 0.619  max 1.868
+
+### run at 2026-11-09T00:18:33Z
+on-device benchmark  model: cnn_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 46.960 ms
+  latency ms  mean 0.376  p50 0.364  p95 0.432  p99 0.569  min 0.340  max 1.085
+
+### run at 2026-11-09T00:18:33Z
+on-device benchmark  model: cnn_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 14.512 ms
+  latency ms  mean 0.378  p50 0.363  p95 0.443  p99 0.668  min 0.337  max 1.141
+
+### run at 2026-11-09T00:18:49Z
+on-device benchmark  model: transformer_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 101.532 ms
+  latency ms  mean 47.663  p50 23.900  p95 36.771  p99 70.899  min 19.043  max 6686.390
+
+### run at 2026-11-09T00:19:19Z
+on-device benchmark  model: transformer_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 85.169 ms
+  latency ms  mean 22.294  p50 21.460  p95 29.162  p99 32.192  min 18.717  max 32.649
+
+### run at 2026-11-09T00:19:24Z
+on-device benchmark  model: segmenter_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300  load+compile: 73.061 ms
+  latency ms  mean 13.897  p50 13.228  p95 18.996  p99 21.015  min 11.697  max 22.030
+
+### run at 2026-11-09T00:19:29Z
+on-device benchmark  model: segmenter_physiq
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300  load+compile: 34.230 ms
+  latency ms  mean 14.036  p50 13.419  p95 18.423  p99 21.084  min 11.899  max 22.588
+

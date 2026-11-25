@@ -1,0 +1,13 @@
+# Minimal runtime deps for training / evaluation on a pod whose image already
+# provides torch (RunPod PyTorch templates, pytorch/pytorch:* images).
+# The top-level requirements.txt is a frozen desktop env (UTF-16, many unrelated pins).
+higher==0.2.1
+wandb>=0.18.5
+numpy<2
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+psutil

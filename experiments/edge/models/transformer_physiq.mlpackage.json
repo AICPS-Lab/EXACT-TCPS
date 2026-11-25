@@ -1,0 +1,13 @@
+{
+ "model": "transformer",
+ "checkpoint": "saved_model/transformer-physiq-42.pth",
+ "window": 500,
+ "channels": 6,
+ "params": 300610,
+ "out_shape": [
+  1,
+  500,
+  2
+ ],
+ "precision": "float32"
+}

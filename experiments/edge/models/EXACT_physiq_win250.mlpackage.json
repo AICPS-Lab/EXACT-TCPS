@@ -1,0 +1,13 @@
+{
+ "model": "caex",
+ "checkpoint": "saved_model/caex-physiq-42-win250.pth",
+ "window": 250,
+ "channels": 6,
+ "params": 384550,
+ "out_shape": [
+  1,
+  250,
+  2
+ ],
+ "precision": "float32"
+}

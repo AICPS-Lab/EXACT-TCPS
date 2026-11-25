@@ -1,0 +1,12 @@
+[
+ {
+  "name": "caex-no_rotaug_both",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_rotaug.pth' --n_inner_iter 1  --json_output results/ood/caex-no_rotaug_both.json",
+  "done_if": "results/ood/caex-no_rotaug_both.json"
+ },
+ {
+  "name": "caex-no_rotaug_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_rotaug.pth' --n_inner_iter 0 --no_adabn  --json_output results/ood/caex-no_rotaug_zeroshot.json",
+  "done_if": "results/ood/caex-no_rotaug_zeroshot.json"
+ }
+]

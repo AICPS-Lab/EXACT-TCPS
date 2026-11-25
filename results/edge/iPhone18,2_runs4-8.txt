@@ -1,0 +1,53 @@
+# iPhone 17 Pro Max (iPhone18,2), iOS 27.0.1, Release build, Xcode 27.2 on macOS 27.2, 2026-11-08 15:18
+# unplugged (power line in each block), thermal nominal; 5 consecutive headless launches from the Mac:
+#   devicectl device process launch --console --terminate-existing com.hcwdavid.EXACTBench --autorun --exit
+### run 1 at 2026-11-08T23:18:16Z
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 0.189  p50 0.184  p95 0.207  p99 0.221  min 0.173  max 0.496
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 0.188  p50 0.186  p95 0.197  p99 0.204  min 0.181  max 0.458
+
+### run 2 at 2026-11-08T23:18:20Z
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 0.192  p50 0.191  p95 0.210  p99 0.238  min 0.168  max 0.537
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 0.184  p50 0.182  p95 0.191  p99 0.214  min 0.180  max 0.220
+
+### run 3 at 2026-11-08T23:18:24Z
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 0.191  p50 0.189  p95 0.206  p99 0.316  min 0.171  max 0.383
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 0.196  p50 0.183  p95 0.244  p99 0.299  min 0.179  max 0.302
+
+### run 4 at 2026-11-08T23:18:28Z
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 0.193  p50 0.190  p95 0.204  p99 0.328  min 0.182  max 0.550
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 0.185  p50 0.184  p95 0.192  p99 0.197  min 0.181  max 0.205
+
+### run 5 at 2026-11-08T23:18:33Z
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 0.189  p50 0.185  p95 0.199  p99 0.231  min 0.181  max 0.510
+EXACT on-device benchmark
+  device: iPhone18,2  os: 27.0.1  thermal: nominal  power: unplugged 95%
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 0.187  p50 0.185  p95 0.195  p99 0.205  min 0.177  max 0.264
+

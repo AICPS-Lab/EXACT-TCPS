@@ -1,0 +1,51 @@
+# xcodegen spec for the on-device latency benchmark (iPhone + Apple Watch).
+#   brew install xcodegen && xcodegen generate      # in this folder -> EXACTBench.xcodeproj
+# The Core ML package lives in ../models and is referenced, not copied.
+name: EXACTBench
+options:
+  bundleIdPrefix: com.hcwdavid
+  createIntermediateGroups: true
+  generateEmptyDirectories: false
+  deploymentTarget:
+    iOS: "17.0"
+    watchOS: "10.0"
+settings:
+  base:
+    DEVELOPMENT_TEAM: G2CDNJ6WMA        # change to your Apple ID team if signing fails
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.0"
+    GENERATE_INFOPLIST_FILE: YES
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 1.0
+    SWIFT_STRICT_CONCURRENCY: minimal
+targets:
+  EXACTBench:
+    type: application
+    platform: iOS
+    sources:
+      - path: Shared
+      - path: iOS
+      - path: ../models
+        excludes: ["*.json", "*.npz", "*.md"]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hcwdavid.EXACTBench
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        TARGETED_DEVICE_FAMILY: "1,2"
+    dependencies:
+      - target: EXACTBench Watch
+  EXACTBench Watch:
+    type: application
+    platform: watchOS
+    sources:
+      - path: Shared
+      - path: Watch
+      - path: ../models
+        excludes: ["*.json", "*.npz", "*.md"]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hcwdavid.EXACTBench.watchkitapp
+        INFOPLIST_KEY_WKCompanionAppBundleIdentifier: com.hcwdavid.EXACTBench
+        INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp: YES
+        INFOPLIST_KEY_WKApplication: YES

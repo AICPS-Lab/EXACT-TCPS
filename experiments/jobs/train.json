@@ -1,0 +1,977 @@
+[
+ {
+  "name": "caex-physiq-42",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-physiq-42.json"
+ },
+ {
+  "name": "caex-physiq-43",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-physiq-43.json"
+ },
+ {
+  "name": "caex-physiq-44",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-physiq-44.json"
+ },
+ {
+  "name": "caex-physiq-45",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-physiq-45.json"
+ },
+ {
+  "name": "caex-physiq-46",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-physiq-46.json"
+ },
+ {
+  "name": "segmenter-physiq-42",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-physiq-42.json"
+ },
+ {
+  "name": "segmenter-physiq-43",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-physiq-43.json"
+ },
+ {
+  "name": "segmenter-physiq-44",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-physiq-44.json"
+ },
+ {
+  "name": "segmenter-physiq-45",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-physiq-45.json"
+ },
+ {
+  "name": "segmenter-physiq-46",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-physiq-46.json"
+ },
+ {
+  "name": "cnn-physiq-42",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-physiq-42.json"
+ },
+ {
+  "name": "cnn-physiq-43",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-physiq-43.json"
+ },
+ {
+  "name": "cnn-physiq-44",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-physiq-44.json"
+ },
+ {
+  "name": "cnn-physiq-45",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-physiq-45.json"
+ },
+ {
+  "name": "cnn-physiq-46",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-physiq-46.json"
+ },
+ {
+  "name": "transformer-physiq-42",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-physiq-42.json"
+ },
+ {
+  "name": "transformer-physiq-43",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-physiq-43.json"
+ },
+ {
+  "name": "transformer-physiq-44",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-physiq-44.json"
+ },
+ {
+  "name": "transformer-physiq-45",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-physiq-45.json"
+ },
+ {
+  "name": "transformer-physiq-46",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-physiq-46.json"
+ },
+ {
+  "name": "unet-physiq-42",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-physiq-42.json"
+ },
+ {
+  "name": "unet-physiq-43",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-physiq-43.json"
+ },
+ {
+  "name": "unet-physiq-44",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-physiq-44.json"
+ },
+ {
+  "name": "unet-physiq-45",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-physiq-45.json"
+ },
+ {
+  "name": "unet-physiq-46",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-physiq-46.json"
+ },
+ {
+  "name": "caex-spar-42",
+  "cmd": "python main_meta_v2.py --model caex --dataset spar --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-spar-42.json"
+ },
+ {
+  "name": "caex-spar-43",
+  "cmd": "python main_meta_v2.py --model caex --dataset spar --seed 43 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-spar-43.json"
+ },
+ {
+  "name": "caex-spar-44",
+  "cmd": "python main_meta_v2.py --model caex --dataset spar --seed 44 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-spar-44.json"
+ },
+ {
+  "name": "caex-spar-45",
+  "cmd": "python main_meta_v2.py --model caex --dataset spar --seed 45 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-spar-45.json"
+ },
+ {
+  "name": "caex-spar-46",
+  "cmd": "python main_meta_v2.py --model caex --dataset spar --seed 46 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-spar-46.json"
+ },
+ {
+  "name": "segmenter-spar-42",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset spar --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-spar-42.json"
+ },
+ {
+  "name": "segmenter-spar-43",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset spar --seed 43 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-spar-43.json"
+ },
+ {
+  "name": "segmenter-spar-44",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset spar --seed 44 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-spar-44.json"
+ },
+ {
+  "name": "segmenter-spar-45",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset spar --seed 45 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-spar-45.json"
+ },
+ {
+  "name": "segmenter-spar-46",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset spar --seed 46 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-spar-46.json"
+ },
+ {
+  "name": "cnn-spar-42",
+  "cmd": "python main_meta_v2.py --model cnn --dataset spar --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-spar-42.json"
+ },
+ {
+  "name": "cnn-spar-43",
+  "cmd": "python main_meta_v2.py --model cnn --dataset spar --seed 43 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-spar-43.json"
+ },
+ {
+  "name": "cnn-spar-44",
+  "cmd": "python main_meta_v2.py --model cnn --dataset spar --seed 44 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-spar-44.json"
+ },
+ {
+  "name": "cnn-spar-45",
+  "cmd": "python main_meta_v2.py --model cnn --dataset spar --seed 45 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-spar-45.json"
+ },
+ {
+  "name": "cnn-spar-46",
+  "cmd": "python main_meta_v2.py --model cnn --dataset spar --seed 46 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-spar-46.json"
+ },
+ {
+  "name": "transformer-spar-42",
+  "cmd": "python main_meta_v2.py --model transformer --dataset spar --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-spar-42.json"
+ },
+ {
+  "name": "transformer-spar-43",
+  "cmd": "python main_meta_v2.py --model transformer --dataset spar --seed 43 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-spar-43.json"
+ },
+ {
+  "name": "transformer-spar-44",
+  "cmd": "python main_meta_v2.py --model transformer --dataset spar --seed 44 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-spar-44.json"
+ },
+ {
+  "name": "transformer-spar-45",
+  "cmd": "python main_meta_v2.py --model transformer --dataset spar --seed 45 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-spar-45.json"
+ },
+ {
+  "name": "transformer-spar-46",
+  "cmd": "python main_meta_v2.py --model transformer --dataset spar --seed 46 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-spar-46.json"
+ },
+ {
+  "name": "unet-spar-42",
+  "cmd": "python main_meta_v2.py --model unet --dataset spar --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-spar-42.json"
+ },
+ {
+  "name": "unet-spar-43",
+  "cmd": "python main_meta_v2.py --model unet --dataset spar --seed 43 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-spar-43.json"
+ },
+ {
+  "name": "unet-spar-44",
+  "cmd": "python main_meta_v2.py --model unet --dataset spar --seed 44 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-spar-44.json"
+ },
+ {
+  "name": "unet-spar-45",
+  "cmd": "python main_meta_v2.py --model unet --dataset spar --seed 45 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-spar-45.json"
+ },
+ {
+  "name": "unet-spar-46",
+  "cmd": "python main_meta_v2.py --model unet --dataset spar --seed 46 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-spar-46.json"
+ },
+ {
+  "name": "caex-mmfit-42",
+  "cmd": "python main_meta_v2.py --model caex --dataset mmfit --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-mmfit-42.json"
+ },
+ {
+  "name": "caex-mmfit-43",
+  "cmd": "python main_meta_v2.py --model caex --dataset mmfit --seed 43 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-mmfit-43.json"
+ },
+ {
+  "name": "caex-mmfit-44",
+  "cmd": "python main_meta_v2.py --model caex --dataset mmfit --seed 44 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-mmfit-44.json"
+ },
+ {
+  "name": "caex-mmfit-45",
+  "cmd": "python main_meta_v2.py --model caex --dataset mmfit --seed 45 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-mmfit-45.json"
+ },
+ {
+  "name": "caex-mmfit-46",
+  "cmd": "python main_meta_v2.py --model caex --dataset mmfit --seed 46 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/caex-mmfit-46.json"
+ },
+ {
+  "name": "segmenter-mmfit-42",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset mmfit --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-mmfit-42.json"
+ },
+ {
+  "name": "segmenter-mmfit-43",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset mmfit --seed 43 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-mmfit-43.json"
+ },
+ {
+  "name": "segmenter-mmfit-44",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset mmfit --seed 44 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-mmfit-44.json"
+ },
+ {
+  "name": "segmenter-mmfit-45",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset mmfit --seed 45 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-mmfit-45.json"
+ },
+ {
+  "name": "segmenter-mmfit-46",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset mmfit --seed 46 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/segmenter-mmfit-46.json"
+ },
+ {
+  "name": "cnn-mmfit-42",
+  "cmd": "python main_meta_v2.py --model cnn --dataset mmfit --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-mmfit-42.json"
+ },
+ {
+  "name": "cnn-mmfit-43",
+  "cmd": "python main_meta_v2.py --model cnn --dataset mmfit --seed 43 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-mmfit-43.json"
+ },
+ {
+  "name": "cnn-mmfit-44",
+  "cmd": "python main_meta_v2.py --model cnn --dataset mmfit --seed 44 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-mmfit-44.json"
+ },
+ {
+  "name": "cnn-mmfit-45",
+  "cmd": "python main_meta_v2.py --model cnn --dataset mmfit --seed 45 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-mmfit-45.json"
+ },
+ {
+  "name": "cnn-mmfit-46",
+  "cmd": "python main_meta_v2.py --model cnn --dataset mmfit --seed 46 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/cnn-mmfit-46.json"
+ },
+ {
+  "name": "transformer-mmfit-42",
+  "cmd": "python main_meta_v2.py --model transformer --dataset mmfit --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-mmfit-42.json"
+ },
+ {
+  "name": "transformer-mmfit-43",
+  "cmd": "python main_meta_v2.py --model transformer --dataset mmfit --seed 43 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-mmfit-43.json"
+ },
+ {
+  "name": "transformer-mmfit-44",
+  "cmd": "python main_meta_v2.py --model transformer --dataset mmfit --seed 44 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-mmfit-44.json"
+ },
+ {
+  "name": "transformer-mmfit-45",
+  "cmd": "python main_meta_v2.py --model transformer --dataset mmfit --seed 45 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-mmfit-45.json"
+ },
+ {
+  "name": "transformer-mmfit-46",
+  "cmd": "python main_meta_v2.py --model transformer --dataset mmfit --seed 46 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/transformer-mmfit-46.json"
+ },
+ {
+  "name": "unet-mmfit-42",
+  "cmd": "python main_meta_v2.py --model unet --dataset mmfit --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-mmfit-42.json"
+ },
+ {
+  "name": "unet-mmfit-43",
+  "cmd": "python main_meta_v2.py --model unet --dataset mmfit --seed 43 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-mmfit-43.json"
+ },
+ {
+  "name": "unet-mmfit-44",
+  "cmd": "python main_meta_v2.py --model unet --dataset mmfit --seed 44 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-mmfit-44.json"
+ },
+ {
+  "name": "unet-mmfit-45",
+  "cmd": "python main_meta_v2.py --model unet --dataset mmfit --seed 45 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-mmfit-45.json"
+ },
+ {
+  "name": "unet-mmfit-46",
+  "cmd": "python main_meta_v2.py --model unet --dataset mmfit --seed 46 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/unet-mmfit-46.json"
+ },
+ {
+  "name": "caex-physiq-42-c3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/caex-physiq-42-c3.json"
+ },
+ {
+  "name": "caex-physiq-43-c3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/caex-physiq-43-c3.json"
+ },
+ {
+  "name": "caex-physiq-44-c3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/caex-physiq-44-c3.json"
+ },
+ {
+  "name": "caex-physiq-45-c3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/caex-physiq-45-c3.json"
+ },
+ {
+  "name": "caex-physiq-46-c3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/caex-physiq-46-c3.json"
+ },
+ {
+  "name": "segmenter-physiq-42-c3",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/segmenter-physiq-42-c3.json"
+ },
+ {
+  "name": "segmenter-physiq-43-c3",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/segmenter-physiq-43-c3.json"
+ },
+ {
+  "name": "segmenter-physiq-44-c3",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/segmenter-physiq-44-c3.json"
+ },
+ {
+  "name": "segmenter-physiq-45-c3",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/segmenter-physiq-45-c3.json"
+ },
+ {
+  "name": "segmenter-physiq-46-c3",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/segmenter-physiq-46-c3.json"
+ },
+ {
+  "name": "cnn-physiq-42-c3",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/cnn-physiq-42-c3.json"
+ },
+ {
+  "name": "cnn-physiq-43-c3",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/cnn-physiq-43-c3.json"
+ },
+ {
+  "name": "cnn-physiq-44-c3",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/cnn-physiq-44-c3.json"
+ },
+ {
+  "name": "cnn-physiq-45-c3",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/cnn-physiq-45-c3.json"
+ },
+ {
+  "name": "cnn-physiq-46-c3",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/cnn-physiq-46-c3.json"
+ },
+ {
+  "name": "transformer-physiq-42-c3",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/transformer-physiq-42-c3.json"
+ },
+ {
+  "name": "transformer-physiq-43-c3",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/transformer-physiq-43-c3.json"
+ },
+ {
+  "name": "transformer-physiq-44-c3",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/transformer-physiq-44-c3.json"
+ },
+ {
+  "name": "transformer-physiq-45-c3",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/transformer-physiq-45-c3.json"
+ },
+ {
+  "name": "transformer-physiq-46-c3",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/transformer-physiq-46-c3.json"
+ },
+ {
+  "name": "unet-physiq-42-c3",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/unet-physiq-42-c3.json"
+ },
+ {
+  "name": "unet-physiq-43-c3",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/unet-physiq-43-c3.json"
+ },
+ {
+  "name": "unet-physiq-44-c3",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/unet-physiq-44-c3.json"
+ },
+ {
+  "name": "unet-physiq-45-c3",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/unet-physiq-45-c3.json"
+ },
+ {
+  "name": "unet-physiq-46-c3",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --out_channels 3 --fine_split --tag c3",
+  "done_if": "results/runs/unet-physiq-46-c3.json"
+ },
+ {
+  "name": "ex-physiq-42",
+  "cmd": "python main_meta_v2.py --model ex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/ex-physiq-42.json"
+ },
+ {
+  "name": "ex-physiq-43",
+  "cmd": "python main_meta_v2.py --model ex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/ex-physiq-43.json"
+ },
+ {
+  "name": "ex-physiq-44",
+  "cmd": "python main_meta_v2.py --model ex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/ex-physiq-44.json"
+ },
+ {
+  "name": "ex-physiq-45",
+  "cmd": "python main_meta_v2.py --model ex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/ex-physiq-45.json"
+ },
+ {
+  "name": "ex-physiq-46",
+  "cmd": "python main_meta_v2.py --model ex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200",
+  "done_if": "results/runs/ex-physiq-46.json"
+ },
+ {
+  "name": "caex-physiq-42-no_gate",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --tag no_gate",
+  "done_if": "results/runs/caex-physiq-42-no_gate.json"
+ },
+ {
+  "name": "caex-physiq-43-no_gate",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --tag no_gate",
+  "done_if": "results/runs/caex-physiq-43-no_gate.json"
+ },
+ {
+  "name": "caex-physiq-44-no_gate",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --tag no_gate",
+  "done_if": "results/runs/caex-physiq-44-no_gate.json"
+ },
+ {
+  "name": "caex-physiq-45-no_gate",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --tag no_gate",
+  "done_if": "results/runs/caex-physiq-45-no_gate.json"
+ },
+ {
+  "name": "caex-physiq-46-no_gate",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --tag no_gate",
+  "done_if": "results/runs/caex-physiq-46-no_gate.json"
+ },
+ {
+  "name": "caex-physiq-42-no_groupgate",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_group_gate false --tag no_groupgate",
+  "done_if": "results/runs/caex-physiq-42-no_groupgate.json"
+ },
+ {
+  "name": "caex-physiq-43-no_groupgate",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_group_gate false --tag no_groupgate",
+  "done_if": "results/runs/caex-physiq-43-no_groupgate.json"
+ },
+ {
+  "name": "caex-physiq-44-no_groupgate",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_group_gate false --tag no_groupgate",
+  "done_if": "results/runs/caex-physiq-44-no_groupgate.json"
+ },
+ {
+  "name": "caex-physiq-45-no_groupgate",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_group_gate false --tag no_groupgate",
+  "done_if": "results/runs/caex-physiq-45-no_groupgate.json"
+ },
+ {
+  "name": "caex-physiq-46-no_groupgate",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_group_gate false --tag no_groupgate",
+  "done_if": "results/runs/caex-physiq-46-no_groupgate.json"
+ },
+ {
+  "name": "caex-physiq-42-no_norm",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_imu_normalize false --tag no_norm",
+  "done_if": "results/runs/caex-physiq-42-no_norm.json"
+ },
+ {
+  "name": "caex-physiq-43-no_norm",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_imu_normalize false --tag no_norm",
+  "done_if": "results/runs/caex-physiq-43-no_norm.json"
+ },
+ {
+  "name": "caex-physiq-44-no_norm",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_imu_normalize false --tag no_norm",
+  "done_if": "results/runs/caex-physiq-44-no_norm.json"
+ },
+ {
+  "name": "caex-physiq-45-no_norm",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_imu_normalize false --tag no_norm",
+  "done_if": "results/runs/caex-physiq-45-no_norm.json"
+ },
+ {
+  "name": "caex-physiq-46-no_norm",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_imu_normalize false --tag no_norm",
+  "done_if": "results/runs/caex-physiq-46-no_norm.json"
+ },
+ {
+  "name": "caex-physiq-42-no_adabn",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_use_adabn false --tag no_adabn",
+  "done_if": "results/runs/caex-physiq-42-no_adabn.json"
+ },
+ {
+  "name": "caex-physiq-43-no_adabn",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_use_adabn false --tag no_adabn",
+  "done_if": "results/runs/caex-physiq-43-no_adabn.json"
+ },
+ {
+  "name": "caex-physiq-44-no_adabn",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_use_adabn false --tag no_adabn",
+  "done_if": "results/runs/caex-physiq-44-no_adabn.json"
+ },
+ {
+  "name": "caex-physiq-45-no_adabn",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_use_adabn false --tag no_adabn",
+  "done_if": "results/runs/caex-physiq-45-no_adabn.json"
+ },
+ {
+  "name": "caex-physiq-46-no_adabn",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_use_adabn false --tag no_adabn",
+  "done_if": "results/runs/caex-physiq-46-no_adabn.json"
+ },
+ {
+  "name": "caex-physiq-42-no_rotaug",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_rotation_chance 0 --tag no_rotaug",
+  "done_if": "results/runs/caex-physiq-42-no_rotaug.json"
+ },
+ {
+  "name": "caex-physiq-43-no_rotaug",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_rotation_chance 0 --tag no_rotaug",
+  "done_if": "results/runs/caex-physiq-43-no_rotaug.json"
+ },
+ {
+  "name": "caex-physiq-44-no_rotaug",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_rotation_chance 0 --tag no_rotaug",
+  "done_if": "results/runs/caex-physiq-44-no_rotaug.json"
+ },
+ {
+  "name": "caex-physiq-45-no_rotaug",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_rotation_chance 0 --tag no_rotaug",
+  "done_if": "results/runs/caex-physiq-45-no_rotaug.json"
+ },
+ {
+  "name": "caex-physiq-46-no_rotaug",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_rotation_chance 0 --tag no_rotaug",
+  "done_if": "results/runs/caex-physiq-46-no_rotaug.json"
+ },
+ {
+  "name": "caex-physiq-42-norm_only",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --caex_group_gate false --caex_use_adabn false --tag norm_only",
+  "done_if": "results/runs/caex-physiq-42-norm_only.json"
+ },
+ {
+  "name": "caex-physiq-43-norm_only",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --caex_group_gate false --caex_use_adabn false --tag norm_only",
+  "done_if": "results/runs/caex-physiq-43-norm_only.json"
+ },
+ {
+  "name": "caex-physiq-44-norm_only",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --caex_group_gate false --caex_use_adabn false --tag norm_only",
+  "done_if": "results/runs/caex-physiq-44-norm_only.json"
+ },
+ {
+  "name": "caex-physiq-45-norm_only",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --caex_group_gate false --caex_use_adabn false --tag norm_only",
+  "done_if": "results/runs/caex-physiq-45-norm_only.json"
+ },
+ {
+  "name": "caex-physiq-46-norm_only",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --caex_group_gate false --caex_use_adabn false --tag norm_only",
+  "done_if": "results/runs/caex-physiq-46-norm_only.json"
+ },
+ {
+  "name": "caex-physiq-42-norm_adabn",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --caex_group_gate false --tag norm_adabn",
+  "done_if": "results/runs/caex-physiq-42-norm_adabn.json"
+ },
+ {
+  "name": "caex-physiq-43-norm_adabn",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --caex_group_gate false --tag norm_adabn",
+  "done_if": "results/runs/caex-physiq-43-norm_adabn.json"
+ },
+ {
+  "name": "caex-physiq-44-norm_adabn",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --caex_group_gate false --tag norm_adabn",
+  "done_if": "results/runs/caex-physiq-44-norm_adabn.json"
+ },
+ {
+  "name": "caex-physiq-45-norm_adabn",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --caex_group_gate false --tag norm_adabn",
+  "done_if": "results/runs/caex-physiq-45-norm_adabn.json"
+ },
+ {
+  "name": "caex-physiq-46-norm_adabn",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_gate none --caex_group_gate false --tag norm_adabn",
+  "done_if": "results/runs/caex-physiq-46-norm_adabn.json"
+ },
+ {
+  "name": "caex-physiq-42-norm_adabn_se",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_group_gate false --tag norm_adabn_se",
+  "done_if": "results/runs/caex-physiq-42-norm_adabn_se.json"
+ },
+ {
+  "name": "caex-physiq-43-norm_adabn_se",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_group_gate false --tag norm_adabn_se",
+  "done_if": "results/runs/caex-physiq-43-norm_adabn_se.json"
+ },
+ {
+  "name": "caex-physiq-44-norm_adabn_se",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_group_gate false --tag norm_adabn_se",
+  "done_if": "results/runs/caex-physiq-44-norm_adabn_se.json"
+ },
+ {
+  "name": "caex-physiq-45-norm_adabn_se",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_group_gate false --tag norm_adabn_se",
+  "done_if": "results/runs/caex-physiq-45-norm_adabn_se.json"
+ },
+ {
+  "name": "caex-physiq-46-norm_adabn_se",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_group_gate false --tag norm_adabn_se",
+  "done_if": "results/runs/caex-physiq-46-norm_adabn_se.json"
+ },
+ {
+  "name": "caex-physiq-42-loocv",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "segmenter-physiq-42-loocv",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "cnn-physiq-42-loocv",
+  "cmd": "python main_meta_v2.py --model cnn --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "transformer-physiq-42-loocv",
+  "cmd": "python main_meta_v2.py --model transformer --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "unet-physiq-42-loocv",
+  "cmd": "python main_meta_v2.py --model unet --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "caex-spar-42-loocv",
+  "cmd": "python main_meta_v2.py --model caex --dataset spar --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "segmenter-spar-42-loocv",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset spar --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "cnn-spar-42-loocv",
+  "cmd": "python main_meta_v2.py --model cnn --dataset spar --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "transformer-spar-42-loocv",
+  "cmd": "python main_meta_v2.py --model transformer --dataset spar --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "unet-spar-42-loocv",
+  "cmd": "python main_meta_v2.py --model unet --dataset spar --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "caex-mmfit-42-loocv",
+  "cmd": "python main_meta_v2.py --model caex --dataset mmfit --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "segmenter-mmfit-42-loocv",
+  "cmd": "python main_meta_v2.py --model segmenter --dataset mmfit --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "cnn-mmfit-42-loocv",
+  "cmd": "python main_meta_v2.py --model cnn --dataset mmfit --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "transformer-mmfit-42-loocv",
+  "cmd": "python main_meta_v2.py --model transformer --dataset mmfit --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "unet-mmfit-42-loocv",
+  "cmd": "python main_meta_v2.py --model unet --dataset mmfit --seed 42 --window_size 300 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --loocv",
+  "done_if": null
+ },
+ {
+  "name": "caex-physiq-42-shot1",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 1 --n_query 1 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot1",
+  "done_if": "results/runs/caex-physiq-42-shot1.json"
+ },
+ {
+  "name": "caex-physiq-43-shot1",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 1 --n_query 1 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot1",
+  "done_if": "results/runs/caex-physiq-43-shot1.json"
+ },
+ {
+  "name": "caex-physiq-44-shot1",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 1 --n_query 1 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot1",
+  "done_if": "results/runs/caex-physiq-44-shot1.json"
+ },
+ {
+  "name": "caex-physiq-45-shot1",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 1 --n_query 1 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot1",
+  "done_if": "results/runs/caex-physiq-45-shot1.json"
+ },
+ {
+  "name": "caex-physiq-46-shot1",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 1 --n_query 1 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot1",
+  "done_if": "results/runs/caex-physiq-46-shot1.json"
+ },
+ {
+  "name": "caex-physiq-42-shot3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 3 --n_query 3 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot3",
+  "done_if": "results/runs/caex-physiq-42-shot3.json"
+ },
+ {
+  "name": "caex-physiq-43-shot3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 3 --n_query 3 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot3",
+  "done_if": "results/runs/caex-physiq-43-shot3.json"
+ },
+ {
+  "name": "caex-physiq-44-shot3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 3 --n_query 3 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot3",
+  "done_if": "results/runs/caex-physiq-44-shot3.json"
+ },
+ {
+  "name": "caex-physiq-45-shot3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 3 --n_query 3 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot3",
+  "done_if": "results/runs/caex-physiq-45-shot3.json"
+ },
+ {
+  "name": "caex-physiq-46-shot3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 3 --n_query 3 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot3",
+  "done_if": "results/runs/caex-physiq-46-shot3.json"
+ },
+ {
+  "name": "caex-physiq-42-shot10",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 10 --n_query 10 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot10",
+  "done_if": "results/runs/caex-physiq-42-shot10.json"
+ },
+ {
+  "name": "caex-physiq-43-shot10",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 10 --n_query 10 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot10",
+  "done_if": "results/runs/caex-physiq-43-shot10.json"
+ },
+ {
+  "name": "caex-physiq-44-shot10",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 10 --n_query 10 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot10",
+  "done_if": "results/runs/caex-physiq-44-shot10.json"
+ },
+ {
+  "name": "caex-physiq-45-shot10",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 10 --n_query 10 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot10",
+  "done_if": "results/runs/caex-physiq-45-shot10.json"
+ },
+ {
+  "name": "caex-physiq-46-shot10",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 10 --n_query 10 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag shot10",
+  "done_if": "results/runs/caex-physiq-46-shot10.json"
+ },
+ {
+  "name": "caex-physiq-42-inner3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --n_inner_iter 3 --tag inner3",
+  "done_if": "results/runs/caex-physiq-42-inner3.json"
+ },
+ {
+  "name": "caex-physiq-43-inner3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --n_inner_iter 3 --tag inner3",
+  "done_if": "results/runs/caex-physiq-43-inner3.json"
+ },
+ {
+  "name": "caex-physiq-44-inner3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --n_inner_iter 3 --tag inner3",
+  "done_if": "results/runs/caex-physiq-44-inner3.json"
+ },
+ {
+  "name": "caex-physiq-45-inner3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --n_inner_iter 3 --tag inner3",
+  "done_if": "results/runs/caex-physiq-45-inner3.json"
+ },
+ {
+  "name": "caex-physiq-46-inner3",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --n_inner_iter 3 --tag inner3",
+  "done_if": "results/runs/caex-physiq-46-inner3.json"
+ },
+ {
+  "name": "caex-physiq-42-inner5",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --n_inner_iter 5 --tag inner5",
+  "done_if": "results/runs/caex-physiq-42-inner5.json"
+ },
+ {
+  "name": "caex-physiq-43-inner5",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --n_inner_iter 5 --tag inner5",
+  "done_if": "results/runs/caex-physiq-43-inner5.json"
+ },
+ {
+  "name": "caex-physiq-44-inner5",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --n_inner_iter 5 --tag inner5",
+  "done_if": "results/runs/caex-physiq-44-inner5.json"
+ },
+ {
+  "name": "caex-physiq-45-inner5",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --n_inner_iter 5 --tag inner5",
+  "done_if": "results/runs/caex-physiq-45-inner5.json"
+ },
+ {
+  "name": "caex-physiq-46-inner5",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --n_inner_iter 5 --tag inner5",
+  "done_if": "results/runs/caex-physiq-46-inner5.json"
+ },
+ {
+  "name": "caex-physiq-42-win250",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 250 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag win250",
+  "done_if": "results/runs/caex-physiq-42-win250.json"
+ },
+ {
+  "name": "caex-physiq-43-win250",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 250 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag win250",
+  "done_if": "results/runs/caex-physiq-43-win250.json"
+ },
+ {
+  "name": "caex-physiq-44-win250",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 250 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag win250",
+  "done_if": "results/runs/caex-physiq-44-win250.json"
+ },
+ {
+  "name": "caex-physiq-45-win250",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 250 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag win250",
+  "done_if": "results/runs/caex-physiq-45-win250.json"
+ },
+ {
+  "name": "caex-physiq-46-win250",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 250 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag win250",
+  "done_if": "results/runs/caex-physiq-46-win250.json"
+ },
+ {
+  "name": "caex-physiq-42-win750",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 750 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag win750",
+  "done_if": "results/runs/caex-physiq-42-win750.json"
+ },
+ {
+  "name": "caex-physiq-43-win750",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 750 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag win750",
+  "done_if": "results/runs/caex-physiq-43-win750.json"
+ },
+ {
+  "name": "caex-physiq-44-win750",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 750 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag win750",
+  "done_if": "results/runs/caex-physiq-44-win750.json"
+ },
+ {
+  "name": "caex-physiq-45-win750",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 750 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag win750",
+  "done_if": "results/runs/caex-physiq-45-win750.json"
+ },
+ {
+  "name": "caex-physiq-46-win750",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 750 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --tag win750",
+  "done_if": "results/runs/caex-physiq-46-win750.json"
+ }
+]

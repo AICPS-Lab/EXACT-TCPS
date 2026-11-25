@@ -1,0 +1,27 @@
+[
+ {
+  "name": "caex-physiq-42-no_rotaug",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 42 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_rotation_chance 0 --tag no_rotaug",
+  "done_if": "results/runs/caex-physiq-42-no_rotaug.json"
+ },
+ {
+  "name": "caex-physiq-43-no_rotaug",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 43 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_rotation_chance 0 --tag no_rotaug",
+  "done_if": "results/runs/caex-physiq-43-no_rotaug.json"
+ },
+ {
+  "name": "caex-physiq-44-no_rotaug",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 44 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_rotation_chance 0 --tag no_rotaug",
+  "done_if": "results/runs/caex-physiq-44-no_rotaug.json"
+ },
+ {
+  "name": "caex-physiq-45-no_rotaug",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 45 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_rotation_chance 0 --tag no_rotaug",
+  "done_if": "results/runs/caex-physiq-45-no_rotaug.json"
+ },
+ {
+  "name": "caex-physiq-46-no_rotaug",
+  "cmd": "python main_meta_v2.py --model caex --dataset physiq --seed 46 --window_size 500 --window_step 25 --add_side_noise --n_shot 5 --n_query 5 --eval_interval 5 --n_test_tasks 25 --wandb_project EXACT-TCPS-rev --n_epochs 200 --caex_rotation_chance 0 --tag no_rotaug",
+  "done_if": "results/runs/caex-physiq-46-no_rotaug.json"
+ }
+]

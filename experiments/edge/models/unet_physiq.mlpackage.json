@@ -1,0 +1,13 @@
+{
+ "model": "unet",
+ "checkpoint": "saved_model/unet-physiq-42.pth",
+ "window": 500,
+ "channels": 6,
+ "params": 163170,
+ "out_shape": [
+  1,
+  500,
+  2
+ ],
+ "precision": "float32"
+}

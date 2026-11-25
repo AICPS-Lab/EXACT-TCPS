@@ -1,0 +1,152 @@
+[
+ {
+  "name": "segmenter_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model segmenter --seeds 42 43 44 45 46 --local_path 'saved_model/segmenter-physiq-{seed}.pth' --n_inner_iter 0 --no_adabn  --json_output results/ood/segmenter_zeroshot.json",
+  "done_if": "results/ood/segmenter_zeroshot.json"
+ },
+ {
+  "name": "segmenter_inner",
+  "cmd": "python eval_phytmo_ood.py --model segmenter --seeds 42 43 44 45 46 --local_path 'saved_model/segmenter-physiq-{seed}.pth' --n_inner_iter 1 --no_adabn  --json_output results/ood/segmenter_inner.json",
+  "done_if": "results/ood/segmenter_inner.json"
+ },
+ {
+  "name": "cnn_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model cnn --seeds 42 43 44 45 46 --local_path 'saved_model/cnn-physiq-{seed}.pth' --n_inner_iter 0 --no_adabn  --json_output results/ood/cnn_zeroshot.json",
+  "done_if": "results/ood/cnn_zeroshot.json"
+ },
+ {
+  "name": "cnn_inner",
+  "cmd": "python eval_phytmo_ood.py --model cnn --seeds 42 43 44 45 46 --local_path 'saved_model/cnn-physiq-{seed}.pth' --n_inner_iter 1 --no_adabn  --json_output results/ood/cnn_inner.json",
+  "done_if": "results/ood/cnn_inner.json"
+ },
+ {
+  "name": "transformer_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model transformer --seeds 42 43 44 45 46 --local_path 'saved_model/transformer-physiq-{seed}.pth' --n_inner_iter 0 --no_adabn  --json_output results/ood/transformer_zeroshot.json",
+  "done_if": "results/ood/transformer_zeroshot.json"
+ },
+ {
+  "name": "transformer_inner",
+  "cmd": "python eval_phytmo_ood.py --model transformer --seeds 42 43 44 45 46 --local_path 'saved_model/transformer-physiq-{seed}.pth' --n_inner_iter 1 --no_adabn  --json_output results/ood/transformer_inner.json",
+  "done_if": "results/ood/transformer_inner.json"
+ },
+ {
+  "name": "unet_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model unet --seeds 42 43 44 45 46 --local_path 'saved_model/unet-physiq-{seed}.pth' --n_inner_iter 0 --no_adabn  --json_output results/ood/unet_zeroshot.json",
+  "done_if": "results/ood/unet_zeroshot.json"
+ },
+ {
+  "name": "unet_inner",
+  "cmd": "python eval_phytmo_ood.py --model unet --seeds 42 43 44 45 46 --local_path 'saved_model/unet-physiq-{seed}.pth' --n_inner_iter 1 --no_adabn  --json_output results/ood/unet_inner.json",
+  "done_if": "results/ood/unet_inner.json"
+ },
+ {
+  "name": "ex_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model ex --seeds 42 43 44 45 46 --local_path 'saved_model/ex-physiq-{seed}.pth' --n_inner_iter 0 --no_adabn  --json_output results/ood/ex_zeroshot.json",
+  "done_if": "results/ood/ex_zeroshot.json"
+ },
+ {
+  "name": "ex_inner",
+  "cmd": "python eval_phytmo_ood.py --model ex --seeds 42 43 44 45 46 --local_path 'saved_model/ex-physiq-{seed}.pth' --n_inner_iter 1 --no_adabn  --json_output results/ood/ex_inner.json",
+  "done_if": "results/ood/ex_inner.json"
+ },
+ {
+  "name": "caex_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}.pth' --n_inner_iter 0 --no_adabn  --json_output results/ood/caex_zeroshot.json",
+  "done_if": "results/ood/caex_zeroshot.json"
+ },
+ {
+  "name": "caex_adabn",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}.pth' --n_inner_iter 0  --json_output results/ood/caex_adabn.json",
+  "done_if": "results/ood/caex_adabn.json"
+ },
+ {
+  "name": "caex_inner",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}.pth' --n_inner_iter 1 --no_adabn  --json_output results/ood/caex_inner.json",
+  "done_if": "results/ood/caex_inner.json"
+ },
+ {
+  "name": "caex_both",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}.pth' --n_inner_iter 1  --json_output results/ood/caex_both.json",
+  "done_if": "results/ood/caex_both.json"
+ },
+ {
+  "name": "caex-no_gate_both",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_gate.pth' --n_inner_iter 1 --caex_gate none --json_output results/ood/caex-no_gate_both.json",
+  "done_if": "results/ood/caex-no_gate_both.json"
+ },
+ {
+  "name": "caex-no_gate_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_gate.pth' --n_inner_iter 0 --no_adabn --caex_gate none --json_output results/ood/caex-no_gate_zeroshot.json",
+  "done_if": "results/ood/caex-no_gate_zeroshot.json"
+ },
+ {
+  "name": "caex-no_groupgate_both",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_groupgate.pth' --n_inner_iter 1 --caex_group_gate false --json_output results/ood/caex-no_groupgate_both.json",
+  "done_if": "results/ood/caex-no_groupgate_both.json"
+ },
+ {
+  "name": "caex-no_groupgate_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_groupgate.pth' --n_inner_iter 0 --no_adabn --caex_group_gate false --json_output results/ood/caex-no_groupgate_zeroshot.json",
+  "done_if": "results/ood/caex-no_groupgate_zeroshot.json"
+ },
+ {
+  "name": "caex-no_norm_both",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_norm.pth' --n_inner_iter 1 --caex_imu_normalize false --json_output results/ood/caex-no_norm_both.json",
+  "done_if": "results/ood/caex-no_norm_both.json"
+ },
+ {
+  "name": "caex-no_norm_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_norm.pth' --n_inner_iter 0 --no_adabn --caex_imu_normalize false --json_output results/ood/caex-no_norm_zeroshot.json",
+  "done_if": "results/ood/caex-no_norm_zeroshot.json"
+ },
+ {
+  "name": "caex-no_adabn_both",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_adabn.pth' --n_inner_iter 1 --no_adabn  --json_output results/ood/caex-no_adabn_both.json",
+  "done_if": "results/ood/caex-no_adabn_both.json"
+ },
+ {
+  "name": "caex-no_adabn_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_adabn.pth' --n_inner_iter 0 --no_adabn  --json_output results/ood/caex-no_adabn_zeroshot.json",
+  "done_if": "results/ood/caex-no_adabn_zeroshot.json"
+ },
+ {
+  "name": "caex-no_rotaug_both",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_rotaug.pth' --n_inner_iter 1  --json_output results/ood/caex-no_rotaug_both.json",
+  "done_if": "results/ood/caex-no_rotaug_both.json"
+ },
+ {
+  "name": "caex-no_rotaug_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-no_rotaug.pth' --n_inner_iter 0 --no_adabn  --json_output results/ood/caex-no_rotaug_zeroshot.json",
+  "done_if": "results/ood/caex-no_rotaug_zeroshot.json"
+ },
+ {
+  "name": "caex-norm_only_both",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-norm_only.pth' --n_inner_iter 1 --caex_gate none --caex_group_gate false  --json_output results/ood/caex-norm_only_both.json",
+  "done_if": "results/ood/caex-norm_only_both.json"
+ },
+ {
+  "name": "caex-norm_only_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-norm_only.pth' --n_inner_iter 0 --no_adabn --caex_gate none --caex_group_gate false  --json_output results/ood/caex-norm_only_zeroshot.json",
+  "done_if": "results/ood/caex-norm_only_zeroshot.json"
+ },
+ {
+  "name": "caex-norm_adabn_both",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-norm_adabn.pth' --n_inner_iter 1 --caex_gate none --caex_group_gate false --json_output results/ood/caex-norm_adabn_both.json",
+  "done_if": "results/ood/caex-norm_adabn_both.json"
+ },
+ {
+  "name": "caex-norm_adabn_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-norm_adabn.pth' --n_inner_iter 0 --no_adabn --caex_gate none --caex_group_gate false --json_output results/ood/caex-norm_adabn_zeroshot.json",
+  "done_if": "results/ood/caex-norm_adabn_zeroshot.json"
+ },
+ {
+  "name": "caex-norm_adabn_se_both",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-norm_adabn_se.pth' --n_inner_iter 1 --caex_group_gate false --json_output results/ood/caex-norm_adabn_se_both.json",
+  "done_if": "results/ood/caex-norm_adabn_se_both.json"
+ },
+ {
+  "name": "caex-norm_adabn_se_zeroshot",
+  "cmd": "python eval_phytmo_ood.py --model caex --seeds 42 43 44 45 46 --local_path 'saved_model/caex-physiq-{seed}-norm_adabn_se.pth' --n_inner_iter 0 --no_adabn --caex_group_gate false --json_output results/ood/caex-norm_adabn_se_zeroshot.json",
+  "done_if": "results/ood/caex-norm_adabn_se_zeroshot.json"
+ }
+]

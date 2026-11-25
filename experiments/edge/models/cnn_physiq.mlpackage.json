@@ -1,0 +1,13 @@
+{
+ "model": "cnn",
+ "checkpoint": "saved_model/cnn-physiq-42.pth",
+ "window": 500,
+ "channels": 6,
+ "params": 31778,
+ "out_shape": [
+  1,
+  500,
+  2
+ ],
+ "precision": "float32"
+}

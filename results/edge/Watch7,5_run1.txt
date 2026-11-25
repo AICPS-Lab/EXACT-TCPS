@@ -1,0 +1,12 @@
+# Apple Watch Ultra 2 (Watch7,5, S9 SiP, same as Series 9/10), watchOS 27.0.1, Release build, Xcode 27.2 on macOS 27.2, 2026-11-08 15:12
+# worn on the wrist, off the charger; started by tapping "Run benchmark" on the watch (display kept awake);
+# report pulled from the app Documents folder with devicectl device copy from
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 1.785  p50 1.704  p95 2.399  p99 2.823  min 1.500  max 4.286
+
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 1.723  p50 1.646  p95 2.215  p99 3.117  min 1.308  max 4.077

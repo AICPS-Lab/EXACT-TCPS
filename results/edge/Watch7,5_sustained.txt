@@ -1,0 +1,39 @@
+# Apple Watch Ultra 2 (Watch7,5, S9 SiP), watchOS 27.0.1, Release build, Xcode 27.2 on macOS 27.2, 2026-11-08 15:58
+# "Sustained 60 s" tapped twice on the watch, worn, off the charger: EXACT at one window / 0.5 s for 60 s, CPU-only then NE-allowed, per tap.
+# Pass 1 (23:45Z): one ~1 s window per mode (1 missed deadline of 120) coinciding with the display dimming (watchOS pauses the app while the display is off).
+# Pass 2 (23:55Z): display kept awake throughout, no missed deadlines.
+### run at 2026-11-08T23:45:35Z
+sustained streaming benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  compute units: cpuOnly
+  thermal start/end: nominal/nominal  power start/end: unplugged 100% / unplugged 100%
+  stride 0.5 s  duration 60 s  windows 120  missed 500 ms deadlines 1
+  per-minute mean ms: 13.975
+  per-minute p95 ms:  12.970
+  overall ms  mean 13.975  p95 12.970  p99 20.270  max 1020.479
+
+sustained streaming benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  compute units: all (Neural Engine allowed)
+  thermal start/end: nominal/nominal  power start/end: unplugged 100% / unplugged 100%
+  stride 0.5 s  duration 60 s  windows 120  missed 500 ms deadlines 1
+  per-minute mean ms: 19.724
+  per-minute p95 ms:  21.271
+  overall ms  mean 19.724  p95 21.271  p99 389.630  max 927.714
+
+### run at 2026-11-08T23:55:48Z
+sustained streaming benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  compute units: cpuOnly
+  thermal start/end: nominal/nominal  power start/end: unplugged 100% / unplugged 100%
+  stride 0.5 s  duration 60 s  windows 120  missed 500 ms deadlines 0
+  per-minute mean ms: 5.542
+  per-minute p95 ms:  7.301
+  overall ms  mean 5.542  p95 7.301  p99 8.036  max 17.163
+
+### run at 2026-11-08T23:56:53Z
+sustained streaming benchmark  model: EXACT_physiq
+  device: Watch7,5  os: 27.0.1  compute units: all (Neural Engine allowed)
+  thermal start/end: nominal/nominal  power start/end: unplugged 100% / unplugged 100%
+  stride 0.5 s  duration 60 s  windows 120  missed 500 ms deadlines 0
+  per-minute mean ms: 6.600
+  per-minute p95 ms:  17.816
+  overall ms  mean 6.600  p95 17.816  p99 34.794  max 51.657
+

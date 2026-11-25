@@ -1,0 +1,68 @@
+# Apple Watch Ultra 2 (Watch7,5, S9 SiP, same as Series 9/10), watchOS 27.0.1, Release build, Xcode 27.2 on macOS 27.2
+# worn on the wrist, off the charger (power line in each block); "Run benchmark" tapped 5 times on the watch with the display awake;
+# file pulled from the app Documents folder with devicectl device copy from, 2026-11-08 15:17
+# NOTE: the first unstamped block is the earlier run already saved as Watch7,5_run1.txt (file is append-only); the 5 stamped blocks are runs 2-6
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 1.785  p50 1.704  p95 2.399  p99 2.823  min 1.500  max 4.286
+
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 1.723  p50 1.646  p95 2.215  p99 3.117  min 1.308  max 4.077
+### run at 2026-11-08T23:16:45Z
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 1.777  p50 1.668  p95 2.396  p99 3.908  min 1.336  max 5.437
+
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 1.751  p50 1.643  p95 2.252  p99 3.388  min 1.478  max 8.017
+
+### run at 2026-11-08T23:16:48Z
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 1.840  p50 1.757  p95 2.374  p99 3.597  min 1.536  max 4.126
+
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 1.719  p50 1.637  p95 2.199  p99 3.245  min 1.506  max 3.710
+
+### run at 2026-11-08T23:16:55Z
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 1.821  p50 1.706  p95 2.421  p99 4.476  min 1.361  max 6.047
+
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 1.725  p50 1.633  p95 2.227  p99 3.273  min 1.383  max 3.826
+
+### run at 2026-11-08T23:16:57Z
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 1.831  p50 1.740  p95 2.553  p99 3.340  min 1.490  max 3.648
+
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 1.762  p50 1.677  p95 2.147  p99 3.962  min 1.543  max 4.404
+
+### run at 2026-11-08T23:17:02Z
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: all (Neural Engine allowed)  window: 500x6  iterations: 300
+  latency ms  mean 1.818  p50 1.752  p95 2.318  p99 3.180  min 1.350  max 3.593
+
+EXACT on-device benchmark
+  device: Watch7,5  os: 27.0.1  thermal: nominal  power: unplugged 100%
+  compute units: cpuOnly  window: 500x6  iterations: 300
+  latency ms  mean 1.713  p50 1.614  p95 2.202  p99 3.319  min 1.450  max 5.288
+

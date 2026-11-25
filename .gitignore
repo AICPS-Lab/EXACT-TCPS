@@ -1,0 +1,26 @@
+**/__pycache__/**
+**.DS_Store
+.DS_Store
+data/OpportunityUCIDataset/loco_2.npy
+# data/OpportunityUCIDataset/loco_2_mask.npy
+# ignore png in data folder or any subfolder:
+data/**/*.png
+data/physiq/physiq_permute_all.npy
+/data/WEAR/inertial
+/wandb
+/save_model
+**/.vscode/**
+**/.ipynb_checkpoints/**
+artifacts/
+results/realtime_eval/
+logs/
+results/profile/
+experiments/jobs/*_smoke.json
+data/physiq
+results/trajcheck/
+logs_eval/
+logs_eval_rt/
+logs_eval_fix/
+logs_c3/
+logs_extra/
+saved_figure/*.png

@@ -1,0 +1,152 @@
+[
+ {
+  "name": "realtime-segmenter-42",
+  "cmd": "python eval_realtime.py --model segmenter --model_path saved_model/segmenter-physiq-42.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 42 --json_output results/realtime_eval/segmenter_seed42.json --output results/realtime_eval/segmenter_seed42.md",
+  "done_if": "results/realtime_eval/segmenter_seed42.json"
+ },
+ {
+  "name": "realtime-segmenter-43",
+  "cmd": "python eval_realtime.py --model segmenter --model_path saved_model/segmenter-physiq-43.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 43 --json_output results/realtime_eval/segmenter_seed43.json --output results/realtime_eval/segmenter_seed43.md",
+  "done_if": "results/realtime_eval/segmenter_seed43.json"
+ },
+ {
+  "name": "realtime-segmenter-44",
+  "cmd": "python eval_realtime.py --model segmenter --model_path saved_model/segmenter-physiq-44.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 44 --json_output results/realtime_eval/segmenter_seed44.json --output results/realtime_eval/segmenter_seed44.md",
+  "done_if": "results/realtime_eval/segmenter_seed44.json"
+ },
+ {
+  "name": "realtime-segmenter-45",
+  "cmd": "python eval_realtime.py --model segmenter --model_path saved_model/segmenter-physiq-45.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 45 --json_output results/realtime_eval/segmenter_seed45.json --output results/realtime_eval/segmenter_seed45.md",
+  "done_if": "results/realtime_eval/segmenter_seed45.json"
+ },
+ {
+  "name": "realtime-segmenter-46",
+  "cmd": "python eval_realtime.py --model segmenter --model_path saved_model/segmenter-physiq-46.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 46 --json_output results/realtime_eval/segmenter_seed46.json --output results/realtime_eval/segmenter_seed46.md",
+  "done_if": "results/realtime_eval/segmenter_seed46.json"
+ },
+ {
+  "name": "realtime-cnn-42",
+  "cmd": "python eval_realtime.py --model cnn --model_path saved_model/cnn-physiq-42.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 42 --json_output results/realtime_eval/cnn_seed42.json --output results/realtime_eval/cnn_seed42.md",
+  "done_if": "results/realtime_eval/cnn_seed42.json"
+ },
+ {
+  "name": "realtime-cnn-43",
+  "cmd": "python eval_realtime.py --model cnn --model_path saved_model/cnn-physiq-43.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 43 --json_output results/realtime_eval/cnn_seed43.json --output results/realtime_eval/cnn_seed43.md",
+  "done_if": "results/realtime_eval/cnn_seed43.json"
+ },
+ {
+  "name": "realtime-cnn-44",
+  "cmd": "python eval_realtime.py --model cnn --model_path saved_model/cnn-physiq-44.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 44 --json_output results/realtime_eval/cnn_seed44.json --output results/realtime_eval/cnn_seed44.md",
+  "done_if": "results/realtime_eval/cnn_seed44.json"
+ },
+ {
+  "name": "realtime-cnn-45",
+  "cmd": "python eval_realtime.py --model cnn --model_path saved_model/cnn-physiq-45.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 45 --json_output results/realtime_eval/cnn_seed45.json --output results/realtime_eval/cnn_seed45.md",
+  "done_if": "results/realtime_eval/cnn_seed45.json"
+ },
+ {
+  "name": "realtime-cnn-46",
+  "cmd": "python eval_realtime.py --model cnn --model_path saved_model/cnn-physiq-46.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 46 --json_output results/realtime_eval/cnn_seed46.json --output results/realtime_eval/cnn_seed46.md",
+  "done_if": "results/realtime_eval/cnn_seed46.json"
+ },
+ {
+  "name": "realtime-transformer-42",
+  "cmd": "python eval_realtime.py --model transformer --model_path saved_model/transformer-physiq-42.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 42 --json_output results/realtime_eval/transformer_seed42.json --output results/realtime_eval/transformer_seed42.md",
+  "done_if": "results/realtime_eval/transformer_seed42.json"
+ },
+ {
+  "name": "realtime-transformer-43",
+  "cmd": "python eval_realtime.py --model transformer --model_path saved_model/transformer-physiq-43.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 43 --json_output results/realtime_eval/transformer_seed43.json --output results/realtime_eval/transformer_seed43.md",
+  "done_if": "results/realtime_eval/transformer_seed43.json"
+ },
+ {
+  "name": "realtime-transformer-44",
+  "cmd": "python eval_realtime.py --model transformer --model_path saved_model/transformer-physiq-44.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 44 --json_output results/realtime_eval/transformer_seed44.json --output results/realtime_eval/transformer_seed44.md",
+  "done_if": "results/realtime_eval/transformer_seed44.json"
+ },
+ {
+  "name": "realtime-transformer-45",
+  "cmd": "python eval_realtime.py --model transformer --model_path saved_model/transformer-physiq-45.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 45 --json_output results/realtime_eval/transformer_seed45.json --output results/realtime_eval/transformer_seed45.md",
+  "done_if": "results/realtime_eval/transformer_seed45.json"
+ },
+ {
+  "name": "realtime-transformer-46",
+  "cmd": "python eval_realtime.py --model transformer --model_path saved_model/transformer-physiq-46.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 46 --json_output results/realtime_eval/transformer_seed46.json --output results/realtime_eval/transformer_seed46.md",
+  "done_if": "results/realtime_eval/transformer_seed46.json"
+ },
+ {
+  "name": "realtime-unet-42",
+  "cmd": "python eval_realtime.py --model unet --model_path saved_model/unet-physiq-42.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 42 --json_output results/realtime_eval/unet_seed42.json --output results/realtime_eval/unet_seed42.md",
+  "done_if": "results/realtime_eval/unet_seed42.json"
+ },
+ {
+  "name": "realtime-unet-43",
+  "cmd": "python eval_realtime.py --model unet --model_path saved_model/unet-physiq-43.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 43 --json_output results/realtime_eval/unet_seed43.json --output results/realtime_eval/unet_seed43.md",
+  "done_if": "results/realtime_eval/unet_seed43.json"
+ },
+ {
+  "name": "realtime-unet-44",
+  "cmd": "python eval_realtime.py --model unet --model_path saved_model/unet-physiq-44.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 44 --json_output results/realtime_eval/unet_seed44.json --output results/realtime_eval/unet_seed44.md",
+  "done_if": "results/realtime_eval/unet_seed44.json"
+ },
+ {
+  "name": "realtime-unet-45",
+  "cmd": "python eval_realtime.py --model unet --model_path saved_model/unet-physiq-45.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 45 --json_output results/realtime_eval/unet_seed45.json --output results/realtime_eval/unet_seed45.md",
+  "done_if": "results/realtime_eval/unet_seed45.json"
+ },
+ {
+  "name": "realtime-unet-46",
+  "cmd": "python eval_realtime.py --model unet --model_path saved_model/unet-physiq-46.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 46 --json_output results/realtime_eval/unet_seed46.json --output results/realtime_eval/unet_seed46.md",
+  "done_if": "results/realtime_eval/unet_seed46.json"
+ },
+ {
+  "name": "realtime-ex-42",
+  "cmd": "python eval_realtime.py --model ex --model_path saved_model/ex-physiq-42.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 42 --json_output results/realtime_eval/ex_seed42.json --output results/realtime_eval/ex_seed42.md",
+  "done_if": "results/realtime_eval/ex_seed42.json"
+ },
+ {
+  "name": "realtime-ex-43",
+  "cmd": "python eval_realtime.py --model ex --model_path saved_model/ex-physiq-43.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 43 --json_output results/realtime_eval/ex_seed43.json --output results/realtime_eval/ex_seed43.md",
+  "done_if": "results/realtime_eval/ex_seed43.json"
+ },
+ {
+  "name": "realtime-ex-44",
+  "cmd": "python eval_realtime.py --model ex --model_path saved_model/ex-physiq-44.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 44 --json_output results/realtime_eval/ex_seed44.json --output results/realtime_eval/ex_seed44.md",
+  "done_if": "results/realtime_eval/ex_seed44.json"
+ },
+ {
+  "name": "realtime-ex-45",
+  "cmd": "python eval_realtime.py --model ex --model_path saved_model/ex-physiq-45.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 45 --json_output results/realtime_eval/ex_seed45.json --output results/realtime_eval/ex_seed45.md",
+  "done_if": "results/realtime_eval/ex_seed45.json"
+ },
+ {
+  "name": "realtime-ex-46",
+  "cmd": "python eval_realtime.py --model ex --model_path saved_model/ex-physiq-46.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 46 --json_output results/realtime_eval/ex_seed46.json --output results/realtime_eval/ex_seed46.md",
+  "done_if": "results/realtime_eval/ex_seed46.json"
+ },
+ {
+  "name": "realtime-caex-42",
+  "cmd": "python eval_realtime.py --model caex --model_path saved_model/caex-physiq-42.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 42 --json_output results/realtime_eval/caex_seed42.json --output results/realtime_eval/caex_seed42.md",
+  "done_if": "results/realtime_eval/caex_seed42.json"
+ },
+ {
+  "name": "realtime-caex-43",
+  "cmd": "python eval_realtime.py --model caex --model_path saved_model/caex-physiq-43.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 43 --json_output results/realtime_eval/caex_seed43.json --output results/realtime_eval/caex_seed43.md",
+  "done_if": "results/realtime_eval/caex_seed43.json"
+ },
+ {
+  "name": "realtime-caex-44",
+  "cmd": "python eval_realtime.py --model caex --model_path saved_model/caex-physiq-44.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 44 --json_output results/realtime_eval/caex_seed44.json --output results/realtime_eval/caex_seed44.md",
+  "done_if": "results/realtime_eval/caex_seed44.json"
+ },
+ {
+  "name": "realtime-caex-45",
+  "cmd": "python eval_realtime.py --model caex --model_path saved_model/caex-physiq-45.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 45 --json_output results/realtime_eval/caex_seed45.json --output results/realtime_eval/caex_seed45.md",
+  "done_if": "results/realtime_eval/caex_seed45.json"
+ },
+ {
+  "name": "realtime-caex-46",
+  "cmd": "python eval_realtime.py --model caex --model_path saved_model/caex-physiq-46.pth --mode full --device cuda --out_channels 2 --stream_duration 20 --latency_iterations 300 --seed 46 --json_output results/realtime_eval/caex_seed46.json --output results/realtime_eval/caex_seed46.md",
+  "done_if": "results/realtime_eval/caex_seed46.json"
+ }
+]

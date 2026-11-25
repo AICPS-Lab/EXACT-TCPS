@@ -1,0 +1,13 @@
+{
+ "model": "segmenter",
+ "checkpoint": "saved_model/segmenter-physiq-42.pth",
+ "window": 500,
+ "channels": 6,
+ "params": 430980,
+ "out_shape": [
+  1,
+  500,
+  2
+ ],
+ "precision": "float32"
+}
