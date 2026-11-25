@@ -249,3 +249,9 @@ to stop the container. If you used `--rm`, the container is automatically remove
 - **Updating the Image**: If you change code in this repo and want an updated Docker image, rebuild or push a new version to Docker Hub.
 
 With Docker, you can now replicate the environment quickly on any system—GPU or CPU—without worrying about local dependencies.
+
+## License
+
+The code in this repository is released under the MIT License (see [LICENSE](LICENSE)).
+The third-party datasets bundled under `data/` (SPAR, MM-Fit, PhyTMo) remain subject to the terms of their
+original providers; please cite and follow those terms when using them. The PhysiQ dataset is not included.
