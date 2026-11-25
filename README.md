@@ -39,7 +39,7 @@ This repository provides an implementation for meta-learning on dense labeling t
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/HCWDavid/EXACT-TCPS.git
+    git clone https://github.com/AICPS-Lab/EXACT-TCPS.git
     cd EXACT-TCPS
     ```
 2. Install dependencies:
